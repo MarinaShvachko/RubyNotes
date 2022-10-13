@@ -38,3 +38,5 @@ puts food.gsub("good", "junk") #replace good to junk
 puts "-------------------------------------------- INCLUDE VARIABLES IN STRING -------------------------------------------------"
 price = 6.99
 puts "You should pay #{price} for these apples"
+
+puts "example two".swapcase!
