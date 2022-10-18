@@ -16,3 +16,10 @@ cities = %w[Ney-York Chicago California Devis]
 for city in cities
   print "#{city}, "
 end
+
+
+# iterate array and delete white spaces
+record_arr = ['  aaa', 'dddd ', '  ddd   ']
+record_arr.each(&:strip!)
+puts
+puts record_arr
