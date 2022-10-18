@@ -9,3 +9,6 @@ driver.get 'https://www.booking.com/'
 
 
 driver.quit
+
+
+# find by id:    #alertButton
