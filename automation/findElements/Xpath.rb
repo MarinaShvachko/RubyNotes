@@ -14,3 +14,4 @@ driver.quit
 
 # ----- find element by two attributes AND
 # //img[@src="/media/vagov/assets/img/logo.svg"][@alt="Virginia.gov Logo"] or  //img[@src="/media/vagov/assets/img/logo.svg" and @alt="Virginia.gov Logo"]
+
