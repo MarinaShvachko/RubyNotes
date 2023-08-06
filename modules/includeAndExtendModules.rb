@@ -2,7 +2,7 @@
 module Flyable
 
   def noise
-    puts "pppp-rrrrrr"
+    puts 'pppp-rrrrrr'
   end
 
 end

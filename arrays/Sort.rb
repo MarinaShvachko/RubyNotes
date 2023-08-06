@@ -1,4 +1,4 @@
-puts "----------- sort arrays in array by second element --------------"
+puts '----------- sort arrays in array by second element --------------'
 data = [
   ['france', 140_000],
   ['usa', 300_000],
@@ -14,7 +14,7 @@ data.sort_by! { |row| row[1] } #sort by second column
 #print sorted array
 data.each { |el1, el2| puts el1 + " - " + el2.to_s }
 
-puts "----------------------------------- sort dates reversed order -------------------------------------------"
+puts '----------------------------------- sort dates reversed order -------------------------------------------'
 data = [
   ['11-9-2020', 'france', 10_000],
   ['11-10-2020', 'usa', 35_000],

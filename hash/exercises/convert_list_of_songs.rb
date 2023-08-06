@@ -17,7 +17,7 @@ end
 data = {
   'Queen' => [
     'Bohemian Rhapsody',
-    "Don't Stop Me Now"
+    'Don\'t Stop Me Now'
   ],
   'Metallica' => [
     'Nothing Else Matters'

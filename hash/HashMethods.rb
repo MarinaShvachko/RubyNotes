@@ -20,7 +20,7 @@ puts
 puts  "Check is the key exists: #{options.key?(:where)}"
 
 puts
-puts " -------------------- key as a string -------------------- "
+puts ' -------------------- key as a string -------------------- '
 food = {'drink' => 'cola', 'fruit' => 'orange'}
 puts "#{food} - print all key-value pairs"
 
@@ -41,7 +41,8 @@ days = Hash.new
 days["Monday"] = 1
 days["Tuesday"] = 2
 print "#{days} - this is days"
-puts days.key('Tuesday')
+puts days.key("Tuesday")
+puts
 
 # transform_values()  - change all values
 colors = {
