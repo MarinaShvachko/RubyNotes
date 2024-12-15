@@ -5,6 +5,7 @@ str3 = 'MechanicAuto'
 str4 = 'AutojhjhghgkhMechanic'
 str5 = 'Autojhljlkhkjhkbhjmobile'
 str6 = 'automobile'
+str7 = 'This is not a long text, just example'
 
 def reg_match_with_word(word1, word2)
   if word1 =~ /#{word2}/
@@ -42,3 +43,6 @@ def reg_match_starts_and_ending_word(str, reg_exp_start, reg_exp_end)
   end
 end
 reg_match_starts_and_ending_word(str5, "Auto", "mobile")
+
+matches = str7.match(/long/)
+p matches
