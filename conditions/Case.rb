@@ -1,16 +1,16 @@
 weather = "Raining, Thunderstorm"
 
-case (weather)
+answer = case (weather)
 when "Sunny", "Not really sunny"
-  puts "Go out"
+  "Go out"
 when "Raining", "Thunderstorm"
-  puts "Take an umbrella"
+  "Take an umbrella"
 else
-  puts "Stay home"
+  "Stay home"
 end
+puts answer
 
-
-price = 3999
+price = 4000
 
 case (price)
 when 4000..5000
